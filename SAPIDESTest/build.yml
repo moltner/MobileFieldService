@@ -1,6 +1,6 @@
-sdk: D:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.2.1
+#sdk: "D:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.2.1"
 sdkversion: 3.2.1
-name: instandhaltung
+name: SAPIDESTest
 version: 1.0
 vendor: rhomobile
 build: debug
@@ -12,14 +12,14 @@ iphone:
   provisionprofile: 
   codesignidentity: 
   entitlements: 
-  BundleIdentifier: com.rhomobile.instandhaltung
-  BundleURLScheme: instandhaltung
+  BundleIdentifier: com.rhomobile.sapidestest
+  BundleURLScheme: sapidestest
 wp:
-  productid: faeae9d0-669c-012f-b359-00ff4ca6112f
+  productid: d25c0d91-6792-012f-3145-54c055890e1d
 symbian:
-  uid: 3766729264
+  uid: 3886177677
 android:
-  version: 3.2
+  version: 2.1
   emulator: GalaxyTab
 extensions:
   - json

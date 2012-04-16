@@ -1,0 +1,36 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    <h1><%= @serviceorder.order_id %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+    <a href="<%= url_for :action => :edit, :id => @serviceorder.object %>" class="ui-btn-right" data-icon="star">
+      Edit
+    </a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">OrderId</div>
+            <div class="itemValue"><%= @serviceorder.order_id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">ShortText</div>
+            <div class="itemValue"><%= @serviceorder.short_text %></div>
+          </li>
+          
+          <li>
+            <div class="itemLabel">Location work center</div>
+            <div class="itemValue"><%= @serviceorder.loc_wk_ctr %></div>
+          </li>
+          
+          
+      
+    </ul>
+  </div>
+
+</div>
