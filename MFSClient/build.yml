@@ -1,0 +1,26 @@
+#sdk: "C:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.3.2"
+sdkversion: 3.3.2
+name: instandhaltung
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.instandhaltung
+  BundleURLScheme: instandhaltung
+wp:
+  productid: faeae9d0-669c-012f-b359-00ff4ca6112f
+symbian:
+  uid: 3766729264
+android:
+  version: 3.2
+  emulator: RhoEmu32
+extensions:
+  - json
+  - another-extension
