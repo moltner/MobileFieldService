@@ -1,0 +1,26 @@
+#sdk: "C:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.3.2"
+sdkversion: 3.3.2
+name: SenchaArchitectIntegration
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.senchaarchitectintegration
+  BundleURLScheme: senchaarchitectintegration
+wp:
+  productid: 427e76e0-6b7b-012f-b35b-00ff4ca6112f
+symbian:
+  uid: 3975230699
+android:
+  version: 3.2
+  emulator: RhoEmu32
+extensions:
+  - json
+  - another-extension

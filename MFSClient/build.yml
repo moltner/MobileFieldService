@@ -1,5 +1,5 @@
-sdk: D:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.2.1
-sdkversion: 3.2.1
+sdk: "C:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.3.2"
+sdkversion: 3.3.2
 name: instandhaltung
 version: 1.0
 vendor: rhomobile
@@ -20,7 +20,7 @@ symbian:
   uid: 3766729264
 android:
   version: 3.2
-  emulator: GalaxyTab
+  emulator: RhoEmu
 extensions:
   - json
   - another-extension

@@ -1,0 +1,88 @@
+{
+    "id": "ExtBox1-ext-gen2295",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MainTabPanel",
+        "container|animation": "slide"
+    },
+    "customConfigs": [],
+    "designerId": "6f82af03-72ba-4dfd-b29d-9d7f7fea855e",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen14596",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Order Services",
+                "iconCls": "info"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen2309"
+        },
+        {
+            "id": "ExtBox1-ext-gen15785",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Map View",
+                "iconCls": "info"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen2317"
+        },
+        {
+            "id": "ExtBox1-ext-gen4022",
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "ui": null,
+                "designer|userClassName": "MyTabBar"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-tab-bar",
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen12349",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Form",
+                "iconCls": "info"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen6770"
+        }
+    ]
+}
