@@ -16,7 +16,7 @@ class ServiceOrder < SourceAdapter
     client = Savon::Client.new do
       wsdl.document = "http://cscappwin087.at.emea.csc.com:8000/sap/bc/srt/wsdl/bndg_208D824FDE00F518E1000000142B8271/wsdl11/allinone/standard/document?sap-client=800"
       wsdl.endpoint = "http://cscappwin087.at.emea.csc.com:8000/sap/bc/srt/rfc/sap/z_mtc_order/800/z_mtc_order/z_mtc_order"
-      http.auth.basic("dmoltner", "useyourown")
+      http.auth.basic("estelzer", "emanuel2012")
     end
 
     requestString =

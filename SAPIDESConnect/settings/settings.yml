@@ -1,7 +1,7 @@
 #Sources 
 :sources: 
   ServiceOrder: 
-    :poll_interval: 300
+    :poll_interval: 9000
  
 :development: 
   :licensefile: settings/license.key
