@@ -40,7 +40,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onListItemTap",
-                "implHandler": "var rec = dataview.getStore().getAt(index);\r\nalert('index:'+index+'uaua:'+record.data.desc+'record2:'+rec.data.desc);\r\ndataView.\r\n",
+                "implHandler": "var rec = dataview.getStore().getAt(index);\r\nalert('index:'+index+'uaua:'+record.data.desc+'record2:'+rec.data.desc);\r\n\r\n",
                 "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#dataList",

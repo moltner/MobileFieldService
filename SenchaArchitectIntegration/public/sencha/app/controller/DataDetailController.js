@@ -31,7 +31,7 @@ Ext.define('MyApp.controller.DataDetailController', {
     onListItemTap: function(dataview, index, target, record, e, options) {
         var rec = dataview.getStore().getAt(index);
         alert('index:'+index+'uaua:'+record.data.desc+'record2:'+rec.data.desc);
-        dataView.
+
 
     }
 
