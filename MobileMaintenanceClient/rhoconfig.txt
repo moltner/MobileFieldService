@@ -1,5 +1,5 @@
 # startup page for your application
-start_path = '/app'
+start_path = '/public/sencha/index.html'
 
 # path to the options page (in this case handled by javascript)
 options_path = '/app/Settings'
@@ -47,7 +47,7 @@ LastVisitedPage = ''
 
 # sync server url, typically this will look like 'http://<hostname>:<port>/application'
 # for example: 'http://localhost:9292/application'
-syncserver = ''
+syncserver = 'http://localhost:9292/application'
 
 # geo location inactivity timeout (in seconds)
 #geo_location_inactivity_timeout = 30
@@ -63,7 +63,7 @@ syncserver = ''
 # Port of the local (embedded) HTTP server. This parameter is mainly for debug purposes.
 # If not specified, application will use dynamically selected one.
 # WARNING!!! Remove this parameter before put application to production.
-#local_server_port = 8080
+local_server_port = 9995
 
 # show status bar on windows mobile. default 1
 #wm_show_statusbar = 1

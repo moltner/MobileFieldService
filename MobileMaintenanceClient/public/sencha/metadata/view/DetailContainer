@@ -1,0 +1,63 @@
+{
+    "id": "ExtBox1-ext-gen2309",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "ui": "",
+        "layout": "hbox",
+        "designer|userClassName": "DetailContainer",
+        "designer|userAlias": "mycontainer"
+    },
+    "customConfigs": [],
+    "designerId": "dee987f2-4259-4518-8b6e-70536257c2b7",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen9800",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "id": "dataList",
+                "itemId": "mylist",
+                "width": 339,
+                "layout": "fit",
+                "itemTpl": "{desc}",
+                "store": "OrderServiceStore",
+                "pinHeaders": false,
+                "designer|userClassName": "MyList",
+                "layout|flex": 1
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen10197",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "id": "dataView",
+                "width": null,
+                "layout": "fit",
+                "designer|userClassName": "MyPanel",
+                "layout|flex": 3
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": "ExtBox1-ext-gen14482",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DataDetailController"
+    },
+    "customConfigs": [],
+    "designerId": "161c2963-c22e-4bec-a0d4-766c96b624af",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen14753",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "dataList",
+                "selector": "#dataList",
+                "designer|userClassName": "dataList"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen18135",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onListItemTap",
+                "implHandler": "var rec = dataview.getStore().getAt(index);\r\nalert('index:'+index+'uaua:'+record.data.desc+'record2:'+rec.data.desc);\r\n\r\n",
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#dataList",
+                "designer|userClassName": "onListItemTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen7337",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "dataView",
+                "selector": "#dataView",
+                "designer|userClassName": "dataView"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

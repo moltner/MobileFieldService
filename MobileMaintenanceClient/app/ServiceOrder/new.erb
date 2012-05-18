@@ -1,0 +1,25 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>New <%= @serviceorder.title %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="back" data-direction="reverse">
+      Cancel
+    </a>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :create %>">
+      <input type="hidden" name="id" value="<%= @serviceorder.object %>"/>
+
+      
+          <div data-role="fieldcontain">
+            <label for="serviceorder[test]" class="fieldLabel">Test</label>
+            <input type="text" id="serviceorder[test]" name="serviceorder[test]" <%= placeholder("Test") %> />
+          </div>
+      
+
+      <input type="submit" value="Create"/>
+    </form>
+  </div>
+
+</div>

@@ -184,13 +184,13 @@ class ServiceOrder < SourceAdapter
     @result = {}
     orderArray = mash.z_mtc_order_getlist_response.order_list.item
     orderArray.each { |item|
-        unless item.orderid.nil?
-          entry = {}
-          entry["short_text"] = item.short_text
-          entry["order_id"] = item.orderid
-          entry["loc_wk_ctr"] = item.loc_wk_ctr
-          @result[entry["order_id"]] = entry 
-          p entry         
+        unless item.orderid.nil?  or  !item.mn_wk_ctr.include("CSC_P")
+            entry = {}
+            entry["short_text"] = item.short_text
+            entry["order_id"] = item.orderid
+            entry["loc_wk_ctr"] = item.loc_wk_ctr
+            @result[entry["order_id"]] = entry
+            p entry    
         end
     }
   end

@@ -1,0 +1,32 @@
+{
+    "id": "ExtBox1-ext-gen2212",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Order"
+        ],
+        "stores": [
+            "OrderServiceStore"
+        ],
+        "views": [
+            "MainTabPanel",
+            "DetailContainer",
+            "MapContainer",
+            "SettingsContainer"
+        ],
+        "name": "MyApp",
+        "controllers": [
+            "DataDetailController"
+        ]
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "iconCls": "icon-application",
+    "expanded": true
+}

@@ -9,16 +9,18 @@ applog: rholog.txt
 iphone:
   configuration: Release
   sdk: iphonesimulator5.0
-  provisionprofile:
-  codesignidentity:
-  entitlements:
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
   BundleIdentifier: com.rhomobile.mobilemaintenanceclient
   BundleURLScheme: mobilemaintenanceclient
 wp:
-  productid: '9b6d66c0-774d-012f-b35d-00ff4ca6112f'
+  productid: 9b6d66c0-774d-012f-b35d-00ff4ca6112f
 symbian:
-  uid: '0xe7a07eb9'
+  uid: 0xe7a07eb9
 android:
   version: 2.1
-
-extensions: ["json", "another-extension"]
+  emulator: RhoEmu32
+extensions:
+  - json
+  - another-extension
